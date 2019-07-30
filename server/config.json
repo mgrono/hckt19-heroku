@@ -1,0 +1,9 @@
+{
+    "CLIENT_ID": "abcsdfsdfsdfsdfsf",
+    "CLIENT_SECRET" : "6A185E4B3692FC1E39666FB807F6594303E69868DC1E6C99510CB6FA62B80187",
+    "USERNAME": "test-fzoc3xeotebv@example.com",
+    "PASSWORD": "G_@1s059oq",
+    "CALLBACK_URL" : "https://www.getpostman.com/oauth2/callback",
+    "ENVIRONMENT" : "sandbox",
+    "DEBUG": "false"
+}

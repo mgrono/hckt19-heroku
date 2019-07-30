@@ -1,0 +1,26 @@
+body {
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+.leftPanel, .rightPanel {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+.rightPanel {
+    border-left: 1px solid black;
+    left: 50%;
+}
+.submitButton {
+    float: right;
+}
+.rightPanelBody{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    background-color: #4d5563;
+    color: #dfffde;
+    padding: 20px;
+    overflow-y: auto;
+}

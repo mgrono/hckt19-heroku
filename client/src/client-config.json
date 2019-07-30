@@ -1,0 +1,5 @@
+{
+    "EVENT_TO_SUBSCRIBE": "TriggerAction",
+    "EVENT_TO_PUBLISH": "ReceiveEvent",
+    "HEROKU_APP_URL": "https://sfevtes.herokuapp.com"
+}

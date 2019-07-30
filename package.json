@@ -1,0 +1,41 @@
+{
+  "name": "event-sf2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js",
+    "server": "nodemon server/server.js",
+    "client": "npm run start --prefix client",
+    "build": "cd client && npm install && npm run build",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "private": true,
+  "engines": {
+    "npm": "6.9.0",
+    "node": "10.16.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "faye": "^1.2.4",
+    "nforce": "^1.12.2",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0",
+    "concurrently": "^4.1.0",
+    "util": "^0.12.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
