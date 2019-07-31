@@ -9,7 +9,7 @@
     ```
 1. Login to Heroku
 	```
-    cd heroku
+    cd hckt19-heroku
 	heroku login
     ```
 
