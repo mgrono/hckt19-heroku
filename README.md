@@ -21,6 +21,11 @@
     HEROKU_APP_URL - your heroku instance url, for example http://name-of-app.herokuapp.com/
 
 1. Configure connection to SFDC in: /server/config.json  
+1. Commit changed code
+    ```
+    git add . 
+    git commit -m "config change"
+    ```
 1. Push code to heroku and run the app
 	```
     git push heroku master
